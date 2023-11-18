@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Aulas/aula2/calculadora/src"/>
+	<classpathentry kind="src" path="Aulas/aula2/redeSocial/src"/>
+	<classpathentry kind="src" path="Aulas/aula2/src"/>
+	<classpathentry kind="src" path="Aulas/aula2/tabuada/src"/>
+	<classpathentry kind="src" path="JAVA/src"/>
+	<classpathentry kind="output" path="Aulas/aula2/calculadora/bin"/>
+</classpath>
