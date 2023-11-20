@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>calculadoraSimples</name>
+	<name>Array</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1700501087976</id>
+			<id>1700501087961</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
