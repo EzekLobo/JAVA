@@ -192,7 +192,7 @@ class ProcedimentoParte {
     }
 }
 
-public class HospitalSystem {
+public class Hospital {
     private List<Medicamento> medicamentos = new ArrayList<>();
     private List<Insumo> insumos = new ArrayList<>();
     private List<Procedimento> procedimentos = new ArrayList<>();
