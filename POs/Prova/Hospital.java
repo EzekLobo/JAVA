@@ -132,13 +132,15 @@ public class Triagem {
 }
 
 
-class Atendimento {
+public class Atendimento {
     private Paciente paciente;
     private AgenteSaude medico;
+    private boolean urgencia;
 
-    public Atendimento(Paciente paciente, AgenteSaude medico) {
+    public Atendimento(Paciente paciente, AgenteSaude medico, boolean urgencia) {
         this.paciente = paciente;
         this.medico = medico;
+        this.urgencia = urgencia;
     }
 
     public Paciente getPaciente() {
@@ -148,7 +150,21 @@ class Atendimento {
     public AgenteSaude getMedico() {
         return medico;
     }
+
+    public boolean isUrgencia() {
+        return urgencia;
+    }
+
+    // Método para identificar a urgência do atendimento
+    public void identificarUrgencia() {
+        if (urgencia) {
+            System.out.println("Atendimento de urgência para o paciente: " + paciente.getNome());
+        } else {
+            System.out.println("Atendimento não é de urgência para o paciente: " + paciente.getNome());
+        }
+    }
 }
+
 
 class RegistroProcedimento {
     private Procedimento procedimento;
